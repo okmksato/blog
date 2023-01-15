@@ -6,7 +6,7 @@
 
 <!-- words per minute  -->
 
-{% assign wpm = 180 %}
+{% assign wpm = 600 %}
 {% assign min_time = 1 %}
 
 {% assign read_time = words | divided_by: wpm %}
@@ -22,7 +22,7 @@
 <!-- return element -->
 <span class="readtime" data-toggle="tooltip" data-placement="bottom"
   title="{{ words }} {{ site.data.locales[site.lang].post.words }}">
-  <em>{{- read_time -}}{{" "}}{{- site.data.locales[site.lang].post.read_time.unit -}}</em>
+  {{- site.data.locales[site.lang].post.read_time.unit -}}{{" "}}{{- read_time -}}{{" "}}
   {%- if include.prompt -%}
     {%- assign _prompt_words = read_prompt | number_of_words: 'auto' -%}
     {%- unless _prompt_words > 1 -%}{{ " " }}{%- endunless -%}{{ read_prompt }}

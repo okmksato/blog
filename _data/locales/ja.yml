@@ -11,16 +11,16 @@ layout:
 tabs:
   # format: <filename_without_extension>: <value>
   home: Home
-  categories: Categories
-  tags: Tags
-  archives: Archives
-  about: About
+  categories: カテゴリー分類
+  tags: タグ
+  archives: 過去の記事
+  about: このブログについて
 
 # the text displayed in the search bar & search results
 search:
-  hint: search
-  cancel: Cancel
-  no_results: Oops! No results found.
+  hint: 記事の検索
+  cancel: キャンセル
+  no_results: 検索語句と一致する記事は見つかりませんでした
 
 panel:
   lastmod: Recently Updated
@@ -53,13 +53,13 @@ notification:
 
 post:
   written_by: By
-  posted: Posted
-  updated: Updated
-  words: words
+  posted: 投稿
+  updated: 更新
+  words: 文字の記事です
   pageview_measure: views
   read_time:
-    unit: min
-    prompt: read
+    unit: この記事は約
+    prompt: 分で読む事ができます
   relate_posts: Further Reading
   share: Share
   button:
@@ -81,7 +81,7 @@ df:
     dayjs: 'll'
   archives:
     strftime: '%b'
-    dayjs: 'MMM'
+    dayjs: 'M月'
 
 # categories page
 categories:
