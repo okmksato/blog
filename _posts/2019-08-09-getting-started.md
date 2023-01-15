@@ -24,6 +24,8 @@ There are two ways to create a new repository for this theme:
 
 Create a new repository from the [**Chirpy Starter**][use-starter] and name it `<GH_USERNAME>.github.io`, where `GH_USERNAME` represents your GitHub username.
 
+![kimetu](/assets/images/3.jpg)
+
 #### Option 2. Forking on GitHub
 
 [Fork **Chirpy**](https://github.com/cotes2020/jekyll-theme-chirpy/fork) on GitHub and rename it to `<GH_USERNAME>.github.io`. Please note that the default branch code is in development.  If you want the site to be stable, please switch to the [latest tag][latest-tag] and start writing.
