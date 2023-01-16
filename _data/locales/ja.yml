@@ -4,14 +4,14 @@
 
 layout:
   post: 投稿
-  category: カテゴリー分類
+  category: カテゴリー
   tag: タグ
 
 # The tabs of sidebar
 tabs:
   # format: <filename_without_extension>: <value>
   home: Home
-  categories: カテゴリー分類
+  categories: カテゴリー
   tags: タグ
   archives: 過去の記事
 #  about: このブログについて
@@ -30,9 +30,9 @@ panel:
 copyright:
   # Shown at the bottom of the post
   license:
-    template: This post is licensed under :LICENSE_NAME by the author.
-    name: CC BY 4.0
-    link: https://creativecommons.org/licenses/by/4.0/
+    template: 記事は :LICENSE_NAME の下に提供されています
+    name:  CC BY-NC 4.0
+    link: https://creativecommons.org/licenses/by-nc/4.0/deed.ja
 
   # Displayed in the footer
   brief: Some rights reserved.
@@ -52,26 +52,26 @@ notification:
 # ----- Posts related labels -----
 
 post:
-  written_by: By
+  written_by: 
   posted: 投稿
   updated: 更新
-  words: 文字の記事です
+  words: 文字
   pageview_measure: views
   read_time:
-    unit: この記事は約
-    prompt: 分で読む事ができます
-  relate_posts: Further Reading
-  share: Share
+    unit: 約
+    prompt: 分
+  relate_posts: 関連記事
+  share: 共有
   button:
-    next: Newer
-    previous: Older
+    next: 次の記事
+    previous: 前の記事
     copy_code:
-      succeed: Copied!
+      succeed: コピーしました
     share_link:
-      title: Copy link
-      succeed: Link copied successfully!
+      title: この記事のリンクをコピー
+      succeed: コピーしました！
   # pinned prompt of posts list on homepage
-  pin_prompt: Pinned
+  pin_prompt: 固定表示
 
 # Date time format.
 # See: <http://strftime.net/>, <https://day.js.org/docs/en/display/format>
